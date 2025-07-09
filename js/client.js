@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000', {transports: ["websocket"]});
+const socket = io('https://ichat-1-dzg0.onrender.com', {transports: ["websocket"]});
 
 //Get DOM elements in respective JS variables
 // document.getElementById is used to get the element by its ID
